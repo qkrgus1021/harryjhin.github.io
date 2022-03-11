@@ -255,3 +255,11 @@ Jekyll은 정적 사이트 생성기입니다. 별다른 학습이 필요 없는
   </tbody>
 </table>
 </div>
+
+---
+
+참고한 사이트
+
+- [Github Pages Docs](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
+- [Jekyll Docs(EN)](https://jekyllrb.com/docs/)
+- [Jekyll Docs(KR)](https://jekyllrb-ko.github.io/docs/)
