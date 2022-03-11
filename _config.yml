@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 twitter_username: username
-github_username: username
+github_username: HarryJhin
 minimal_mistakes_skin: default
 search: true
 
@@ -29,9 +29,12 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+# 페이지 매김을 사용하는 경우 다음을 사용하여 표시되는 게시물의 양을 변경할 수 있습니다.
+paginate: 5
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# Ruby가 시간 및 날짜 생성 및 조작을 처리하는 데 사용하는 시간대 환경 변수를 설정합니다. 기본값은 운영체제에서 설정한 현지 시간대입니다.
+# 확인: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul
 
 include:
   - _pages
@@ -58,22 +61,22 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Harry Jhin"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://jinhyun.blog/"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/HarryJhin/harryjhin.github.io"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
 
 footer:
   links:
@@ -82,7 +85,7 @@ footer:
       url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/HarryJhin/harryjhin.github.io"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
