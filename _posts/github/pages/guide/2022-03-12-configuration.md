@@ -8,7 +8,6 @@ categories:
   - Guide
 sidebar:
     nav: github_pages_guide
-toc: true
 ---
 
 ## Site Settings
