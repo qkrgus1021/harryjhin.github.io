@@ -1,5 +1,5 @@
 ---
-permalink: /windows/powertoys/always-on-top/
+permalink: /:categories/:title/
 title: "PowerToys (1) : Always on Top(항상 위)"
 excerpt: "어떤 창을 모든 창 위에 위치하도록 고정한다."
 
