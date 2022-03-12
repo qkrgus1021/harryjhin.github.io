@@ -37,7 +37,11 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 #### Aqua skin: `aqua`
 
-
+<figure class="half">
+    <a href="{{ site.baseurl }}/assets/images/air-skin-archive.png"><img src="{{ site.baseurl }}/assets/images/air-skin-archive.png"></a>
+    <a href="{{ site.baseurl }}/assets/images/air-skin-post.png"><img src="{{ site.baseurl }}/assets/images/air-skin-post.png"></a>
+    <figcaption>Calm and blue.</figcaption>
+</figure>
 
 #### Contrast skin: `contrast`
 
