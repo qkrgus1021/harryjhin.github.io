@@ -13,3 +13,13 @@ main:
     url: /algorithm/
   - title: "About"
     url: /about/
+
+windows:
+  - title: PowerToys
+    children:
+      - title: "Always on Top"
+        url: /windows/powertoys/always-on-top/
+      - title: "Awake"
+        url: /windows/powertoys/awake/
+      - title: "Color Picker"
+        url: /windows/powertoys/color-picker/
