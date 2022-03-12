@@ -1,6 +1,11 @@
 ---
 title: "Github Pages Guide : Configuration"
 excerpt: "_config.yml에 대해 알아보자"
+
+categories:
+  - Github
+  - Pages
+  - Guide
 sidebar:
     nav: github_pages_guide
 toc: true
