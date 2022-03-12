@@ -61,9 +61,9 @@ google:
   search_engine_id       : "fab73bf4df2f9ba92"
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : "google-site-verification=a_T4eVx6sv2N6eg-z5dGXpaJ1LOh4VEtEEYHrKx2ZWk"
+google_site_verification : "a_T4eVx6sv2N6eg-z5dGXpaJ1LOh4VEtEEYHrKx2ZWk"
 bing_site_verification   :
-naver_site_verification  :
+naver_site_verification  : "naverfafece5b0ed3b694e46ae1e7ad2b975e"
 yandex_site_verification :
 baidu_site_verification  :
 
