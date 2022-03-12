@@ -23,3 +23,9 @@ powertoys:
         url: /windows/powertoys/awake/
       - title: "Color Picker"
         url: /windows/powertoys/color-picker/
+
+github_pages_guide:
+  - title: "Github Pages Guide"
+    children:
+      - title: "configuration"
+        url: /docs/github/pages/guide/configuration/
