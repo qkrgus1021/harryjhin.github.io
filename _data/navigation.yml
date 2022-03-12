@@ -3,13 +3,13 @@ main:
     url: /posts/
   - title: "Categories"
     url: /categories/
-  - title: "Spring Boot"
-    url: /spring boot/
-  - title: "Flutter"
-    url: /flutter/
-  - title: ".NET"
-    url: /dotnet/
-  - title: "Tags"
-    url: /tags/
+  - title: "Windows"
+    url: /windows/
+  - title: "Languages"
+    url: /langauges/
+  - title: "Frameworks"
+    url: /frameworks/
+  - title: "Algorithm"
+    url: /algorithm/
   - title: "About"
     url: /about/
