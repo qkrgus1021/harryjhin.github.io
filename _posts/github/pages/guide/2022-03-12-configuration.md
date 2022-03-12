@@ -30,8 +30,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 #### Air skin: `air`
 
-![air-skin-archive](../../../../assets/images/air-skin-archive.png)|![air-skin-post](../../../../assets/images/air-skin-post.png)
-|--|--|
+![air-skin-archive](../../../../assets/images/air-skin-archive.png)![air-skin-post](../../../../assets/images/air-skin-post.png)
 
 #### Aqua skin: `aqua`
 
