@@ -3,8 +3,6 @@ main:
     url: /posts/
   # - title: "Categories"
   #   url: /categories/
-  - title: "Docs"
-    url: /docs/github/pages/guide/configuration/
   - title: "Windows"
     url: /windows/
   - title: "Languages"
