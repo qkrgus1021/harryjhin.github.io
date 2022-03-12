@@ -28,4 +28,4 @@ github_pages_guide:
   - title: "Github Pages Guide"
     children:
       - title: "configuration"
-        url: /docs/github/pages/guide/configuration/
+        url: /github/pages/guide/configuration/
