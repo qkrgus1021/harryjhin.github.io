@@ -32,50 +32,75 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 #### Air skin: `air`
 
-|![air-skin-archive](../../../../assets/images/air-skin-archive.png)|![air-skin-post](../../../../assets/images/air-skin-post.png)|
-|--|--|
-
-#### Aqua skin: `aqua`
-
 <figure class="half">
     <a href="{{ site.baseurl }}/assets/images/air-skin-archive.png"><img src="{{ site.baseurl }}/assets/images/air-skin-archive.png"></a>
     <a href="{{ site.baseurl }}/assets/images/air-skin-post.png"><img src="{{ site.baseurl }}/assets/images/air-skin-post.png"></a>
     <figcaption>Calm and blue.</figcaption>
 </figure>
 
+#### Aqua skin: `aqua`
+
+<figure class="half">
+    <a href="{{ site.baseurl }}/assets/images/aqua-skin-archive.png"><img src="{{ site.baseurl }}/assets/images/aqua-skin-archive.png"></a>
+    <a href="{{ site.baseurl }}/assets/images/aqua-skin-post.png"><img src="{{ site.baseurl }}/assets/images/aqua-skin-post.png"></a>
+    <figcaption>Calm and blue.</figcaption>
+</figure>
+
 #### Contrast skin: `contrast`
 
-![contrast-skin-archive](../../../../assets/images/contrast-skin-archive.png) ![contrast-skin-post](../../../../assets/images/contrast-skin-post.png)
+<figure class="half">
+    <a href="{{ site.baseurl }}/assets/images/contrast-skin-archive.png"><img src="{{ site.baseurl }}/assets/images/contrast-skin-archive.png"></a>
+    <a href="{{ site.baseurl }}/assets/images/contrast-skin-post.png"><img src="{{ site.baseurl }}/assets/images/contrast-skin-post.png"></a>
+    <figcaption>Calm and blue.</figcaption>
+</figure>
 
 #### Dark skin: `dark`
 
-![dark-skin-archive](../../../../assets/images/dark-skin-archive.png)|![dark-skin-post](../../../../assets/images/dark-skin-post.png)
---|--
+<figure class="half">
+    <a href="{{ site.baseurl }}/assets/images/dark-skin-archive.png"><img src="{{ site.baseurl }}/assets/images/dark-skin-archive.png"></a>
+    <a href="{{ site.baseurl }}/assets/images/dark-skin-post.png"><img src="{{ site.baseurl }}/assets/images/dark-skin-post.png"></a>
+    <figcaption>Calm and blue.</figcaption>
+</figure>
 
 #### Dirt skin: `dirt`
 
-![dirt-skin-archive](../../../../assets/images/dirt-skin-archive.png)|![dirt-skin-post](../../../../assets/images/dirt-skin-post.png)
---|--
+<figure class="half">
+    <a href="{{ site.baseurl }}/assets/images/dirt-skin-archive.png"><img src="{{ site.baseurl }}/assets/images/dirt-skin-archive.png"></a>
+    <a href="{{ site.baseurl }}/assets/images/dirt-skin-post.png"><img src="{{ site.baseurl }}/assets/images/dirt-skin-post.png"></a>
+    <figcaption>Calm and blue.</figcaption>
+</figure>
 
 #### Mint skin: `mint`
 
-![mint-skin-archive](../../../../assets/images/mint-skin-archive.png)|![mint-skin-post](../../../../assets/images/mint-skin-post.png)
---|--
+<figure class="half">
+    <a href="{{ site.baseurl }}/assets/images/mint-skin-archive.png"><img src="{{ site.baseurl }}/assets/images/mint-skin-archive.png"></a>
+    <a href="{{ site.baseurl }}/assets/images/mint-skin-post.png"><img src="{{ site.baseurl }}/assets/images/mint-skin-post.png"></a>
+    <figcaption>Calm and blue.</figcaption>
+</figure>
 
 #### Neon skin: `neon`
 
-![neon-skin-archive](../../../../assets/images/neon-skin-archive.png)|![neon-skin-post](../../../../assets/images/neon-skin-post.png)
---|--
+<figure class="half">
+    <a href="{{ site.baseurl }}/assets/images/neon-skin-archive.png"><img src="{{ site.baseurl }}/assets/images/neon-skin-archive.png"></a>
+    <a href="{{ site.baseurl }}/assets/images/neon-skin-post.png"><img src="{{ site.baseurl }}/assets/images/neon-skin-post.png"></a>
+    <figcaption>Calm and blue.</figcaption>
+</figure>
 
 #### Neon skin: `plum`
 
-![plum-skin-archive](../../../../assets/images/plum-skin-archive.png)|![plum-skin-post](../../../../assets/images/plum-skin-post.png)
---|--
+<figure class="half">
+    <a href="{{ site.baseurl }}/assets/images/plum-skin-archive.png"><img src="{{ site.baseurl }}/assets/images/plum-skin-archive.png"></a>
+    <a href="{{ site.baseurl }}/assets/images/plum-skin-post.png"><img src="{{ site.baseurl }}/assets/images/plum-skin-post.png"></a>
+    <figcaption>Calm and blue.</figcaption>
+</figure>
 
 #### Sunrise skin: `sunrise`
 
-![sunrise-skin-archive](../../../../assets/images/sunrise-skin-archive.png)|![sunrise-skin-post](../../../../assets/images/sunrise-skin-post.png)
---|--
+<figure class="half">
+    <a href="{{ site.baseurl }}/assets/images/sunrise-skin-archive.png"><img src="{{ site.baseurl }}/assets/images/sunrise-skin-archive.png"></a>
+    <a href="{{ site.baseurl }}/assets/images/sunrise-skin-post.png"><img src="{{ site.baseurl }}/assets/images/sunrise-skin-post.png"></a>
+    <figcaption>Calm and blue.</figcaption>
+</figure>
 
 ### Locale
 
