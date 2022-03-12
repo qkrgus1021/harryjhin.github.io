@@ -14,7 +14,7 @@ main:
   - title: "About"
     url: /about/
 
-windows:
+powertoys:
   - title: PowerToys
     children:
       - title: "Always on Top"
