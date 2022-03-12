@@ -27,47 +27,47 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 #### Air skin: `air`
 
-![air-skin-archive](assets/images/air-skin-archive.png)|![air-skin-post](assets/images/air-skin-post.png)
+![air-skin-archive](../../../assets/images/air-skin-archive.png)|![air-skin-post](../../../assets/images/air-skin-post.png)
 --|--
 
 #### Aqua skin: `aqua`
 
-![aqua-skin-archive](assets/images/aqua-skin-archive.png)|![aqua-skin-post](assets/images/aqua-skin-post.png)
+![aqua-skin-archive](../../../assets/images/aqua-skin-archive.png)|![aqua-skin-post](../../../assets/images/aqua-skin-post.png)
 --|--
 
 #### Contrast skin: `contrast`
 
-![contrast-skin-archive](assets/images/contrast-skin-archive.png)|![contrast-skin-post](assets/images/contrast-skin-post.png)
+![contrast-skin-archive](../../../assets/images/contrast-skin-archive.png)|![contrast-skin-post](../../../assets/images/contrast-skin-post.png)
 --|--
 
 #### Dark skin: `dark`
 
-![dark-skin-archive](assets/images/dark-skin-archive.png)|![dark-skin-post](assets/images/dark-skin-post.png)
+![dark-skin-archive](../../../assets/images/dark-skin-archive.png)|![dark-skin-post](../../../assets/images/dark-skin-post.png)
 --|--
 
 #### Dirt skin: `dirt`
 
-![dirt-skin-archive](assets/images/dirt-skin-archive.png)|![dirt-skin-post](assets/images/dirt-skin-post.png)
+![dirt-skin-archive](../../../assets/images/dirt-skin-archive.png)|![dirt-skin-post](../../../assets/images/dirt-skin-post.png)
 --|--
 
 #### Mint skin: `mint`
 
-![mint-skin-archive](assets/images/mint-skin-archive.png)|![mint-skin-post](assets/images/mint-skin-post.png)
+![mint-skin-archive](../../../assets/images/mint-skin-archive.png)|![mint-skin-post](../../../assets/images/mint-skin-post.png)
 --|--
 
 #### Neon skin: `neon`
 
-![neon-skin-archive](assets/images/neon-skin-archive.png)|![neon-skin-post](assets/images/neon-skin-post.png)
+![neon-skin-archive](../../../assets/images/neon-skin-archive.png)|![neon-skin-post](../../../assets/images/neon-skin-post.png)
 --|--
 
 #### Neon skin: `plum`
 
-![plum-skin-archive](assets/images/plum-skin-archive.png)|![plum-skin-post](assets/images/plum-skin-post.png)
+![plum-skin-archive](../../../assets/images/plum-skin-archive.png)|![plum-skin-post](../../../assets/images/plum-skin-post.png)
 --|--
 
 #### Sunrise skin: `sunrise`
 
-![sunrise-skin-archive](assets/images/sunrise-skin-archive.pngse)|![sunrise-skin-post](assets/images/sunrise-skin-post.png)
+![sunrise-skin-archive](../../../assets/images/sunrise-skin-archive.pngse)|![sunrise-skin-post](../../../assets/images/sunrise-skin-post.png)
 --|--
 
 ### 사이트 장소
