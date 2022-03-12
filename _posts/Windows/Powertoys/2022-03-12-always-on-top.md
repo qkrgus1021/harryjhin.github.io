@@ -6,6 +6,8 @@ excerpt: "어떤 창을 모든 창 위에 위치하도록 고정한다."
 categories:
     - Windows
     - PowerToys
+sidebar:
+    nav: "windows"
 ---
 
 **Always on Top**은 어떤 창을 모든 창 위에 위치하도록 고정하는 기능입니다.
