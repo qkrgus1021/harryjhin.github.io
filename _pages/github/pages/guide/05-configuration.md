@@ -1,6 +1,5 @@
 ---
 title: "Github Pages Guide : Configuration"
-permalink: /docs/github/pages/guide/configuration/
 excerpt: "_config.yml에 대해 알아보자"
 sidebar:
     nav: github_pages_guide
