@@ -6,8 +6,10 @@ categories:
   - Github
   - Pages
   - Guide
+
 sidebar:
     nav: github_pages_guide
+toc_sticky: false
 ---
 
 ## Site Settings
@@ -34,10 +36,8 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 #### Aqua skin: `aqua`
 
-<figure class="half">
-    <a href="{{ site }}/assets/images/air-skin-archive.png"><img src="{{ site }}/assets/images/air-skin-archive.png"></a>
-    <a href="{{ site }}/assets/images/air-skin-post.png"><img src="{{ site }}/assets/images/air-skin-post.png"></a>
-    <figcaption>Calm and blue.</figcaption>
+<figure>
+  <img src="/assets/images/aqua-skin-archive.png" alt="placeholder image 1"">
 </figure>
 
 #### Contrast skin: `contrast`
