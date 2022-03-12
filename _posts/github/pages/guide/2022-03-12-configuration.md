@@ -34,13 +34,15 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 #### Aqua skin: `aqua`
 
-![aqua-skin-archive](../../../../assets/images/aqua-skin-archive.png)|![aqua-skin-post](../../../../assets/images/aqua-skin-post.png)
---|--
+<figure class="half">
+    <a href="{{ site }}/assets/images/air-skin-archive.png"><img src="{{ site }}/assets/images/air-skin-archive.png"></a>
+    <a href="{{ site }}/assets/images/air-skin-post.png"><img src="{{ site }}/assets/images/air-skin-post.png"></a>
+    <figcaption>Calm and blue.</figcaption>
+</figure>
 
 #### Contrast skin: `contrast`
 
-![contrast-skin-archive](../../../../assets/images/contrast-skin-archive.png)|![contrast-skin-post](../../../../assets/images/contrast-skin-post.png)
---|--
+![contrast-skin-archive](../../../../assets/images/contrast-skin-archive.png) ![contrast-skin-post](../../../../assets/images/contrast-skin-post.png)
 
 #### Dark skin: `dark`
 
