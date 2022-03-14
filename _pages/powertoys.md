@@ -37,7 +37,7 @@ header:
 
 PowerToys를 설치하는 방법은 4가지가 있습니다.
 
-- [앱 설치 관리자(`winget` 명령어)]({{ site }}/windows/powertoys/#Winget)
+- [앱 설치 관리자(`winget` 명령어)](#winget)
 - 마이크로소프트 스토어
 - 공식 홈페이지
 - 깃허브 릴리즈
