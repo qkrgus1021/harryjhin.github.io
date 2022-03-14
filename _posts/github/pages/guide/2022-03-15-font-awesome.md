@@ -24,6 +24,8 @@ Font Awesome의 종류는 Solid, Regular, Light, Brand가 있습니다.
 
 계속 붙는 `fa`는 Font Awesome의 앞글자를 딴 약어입니다.
 
+<i class='fas fa-fw fa-link'></i>
+
 <i class="fas fa-code-compare fa-fw"></i>
 
 ## 스타일링
