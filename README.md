@@ -269,5 +269,5 @@ Jekyll은 정적 사이트 생성기입니다. 별다른 학습이 필요 없는
 
 유용한 사이트
 
-- [아이콘 검색](https://fontawesome.com/search)
+- [아이콘 검색](https://glyphsearch.com/)
 - [Liquid](https://shopify.github.io/liquid/basics/introduction/)
