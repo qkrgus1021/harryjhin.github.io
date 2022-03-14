@@ -3,11 +3,15 @@ permalink: /:categories/:title/
 title: "PowerToys (1) : Always on Top(항상 위)"
 excerpt: "어떤 창을 모든 창 위에 위치하도록 고정한다."
 
+header:
+  overlay_color: "#333"
+  actions:
+    - label: "PowerToys 더 알아보기"
+      url: {{site}}/windows/powertoys/
+
 categories:
-    - Windows
-    - PowerToys
-sidebar:
-    nav: "powertoys"
+  - Windows
+  - PowerToys
 ---
 
 **Always on Top**은 어떤 창을 모든 창 위에 위치하도록 고정하는 기능입니다.
