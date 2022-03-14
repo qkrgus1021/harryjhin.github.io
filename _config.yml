@@ -175,6 +175,8 @@ defaults:
       toc: true
       toc_label: "목차"
       toc_sticky: true
+      sidebar:
+        - nav: sidebar
   # _pages
   - scope:
       path: "_pages"
@@ -195,3 +197,6 @@ languages_archive:
 windows_archive:
   type: liquide
   path: /windows/
+powertoys_archive:
+  type: liquide
+  path: /windows/powertoys/
