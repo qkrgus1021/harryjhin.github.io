@@ -7,6 +7,9 @@ header:
   actions:
     - label: "공식 리포지토리 바로가기"
       url: "https://github.com/microsoft/PowerToys"
+sidebar:
+  - nav: powertoys
+last_modified_at: 2022-03-15
 ---
 
 ## 프로세서 지원
@@ -26,9 +29,9 @@ header:
 |[FancyZones]({{ site.url }}/windows/powertoys/fancy-zones/)                          |창 레이아웃을 내가 원하는 레이아웃으로 커스터마이징 할 수 있는 기능                    |
 |[File Explorer Add-ons]({{ site.url }}/windows/powertoys/file-explorer-add-ons/)     |파일 탐색기의 미리보기 창을 통해 볼 수 있는 파일의 종류를 확장하는 기능                |
 |[Image Resizer]({{ site.url }}/windows/powertoys/image-resizer/)                     |이미지의 사이즈를 내가 원하는 크기로 변경할 수 있는 기능                               |
-|[Keyboard Manager]({{ site.url }}/windows/powertoys/keyboard-manager/)               |키를 매핑하여 내만의 고유 단축키를 만들 수 있는 기능                                   |
+|[Keyboard Manager]({{ site.url }}/windows/powertoys/keyboard-manager/)               |키를 매핑하여 나만의 고유 단축키를 만들 수 있는 기능                                   |
 |[Mouse utilities]({{ site.url }}/windows/powertoys/mouse-utilities/)                 |마우스 커서의 위치를 보다 명확하게 인지할 수 있게 해주는 기능                          |
-|[PowerRename]({{ site.url }}/windows/powertoys/power-rename/)                        |대수의 파일 이름을 원하는대로 한 번에 변경할 수 있는 기능                              |
+|[PowerRename]({{ site.url }}/windows/powertoys/power-rename/)                        |다수의 파일 이름을 원하는대로 한 번에 변경할 수 있는 기능                              |
 |[PowerToys Run]({{ site.url }}/windows/powertoys/run/)                               |앱을 검색하여 실행하거나 웹을 검색할 수 있는 기능                                      |
 |[Shortcut Guide]({{ site.url }}/windows/powertoys/shortcut-guide/)                   |윈도우 바탕화면에서 사용할 수 있는 단축키를 그래픽으로 보여주는 기능                   |
 |[Video Conference Mute]({{ site.url }}/windows/powertoys/video-conference-mute/)     |무엇을 하고 있던지 카메라와 마이크를 시스템적으로 빠르게 음소거할 수 있는 기능         |
