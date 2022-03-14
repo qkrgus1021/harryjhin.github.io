@@ -11,6 +11,8 @@ main:
     url: /frameworks/
   - title: "Algorithm"
     url: /algorithm/
+  - title: "Test"
+    url: /test/
   - title: "About"
     url: /about/
 
