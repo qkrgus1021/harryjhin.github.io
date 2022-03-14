@@ -9,7 +9,7 @@ locale                   : "ko-KR"
 title                    : "Harry Jhin's Blog"
 title_separator          : "|"
 subtitle                 : "dev log" # site tagline that appears below site title in masthead
-name                     : "Home"
+name                     : "Harry Jhin's Blog"
 description              : "최소한의 시행착오와 반복되는 실수를 막는 블로그"
 url                      : "https://jinhyun.blog/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
