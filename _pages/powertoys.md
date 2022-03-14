@@ -8,7 +8,7 @@ header:
     - label: "공식 리포지토리 바로가기"
       url: "https://github.com/microsoft/PowerToys"
 sidebar:
-  - nav: powertoys
+  - nav: windows/powertoys
 last_modified_at: 2022-03-15
 ---
 
