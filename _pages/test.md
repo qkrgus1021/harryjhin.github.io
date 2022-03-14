@@ -4,7 +4,7 @@ excerpt: "YFM(Yaml Front Matter)의 옵션을 테스트하는 페이지"
 permalink: /test/
 header:
   overlay_color: "#333"
-  acntions:
+  actions:
     - label: "Button"
       url: "https://github.com/HarryJhin/harryjhin.github.io"
 ---
