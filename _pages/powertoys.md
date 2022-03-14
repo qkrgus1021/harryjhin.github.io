@@ -53,7 +53,7 @@ PowerToys를 설치하는 방법은 4가지가 있습니다.
    winget install Microsoft.PowerToys
    ```
 
-![PowerToys Winget Install](../assets/images/powertoys-winget-install.png)
+![Install-winget](../assets/images/powertoys-winget-install.png)
 
 설치 완료
 
