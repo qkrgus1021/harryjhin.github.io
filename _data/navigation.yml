@@ -14,18 +14,34 @@ main:
   - title: "About"
     url: /about/
 
-powertoys:
-  - title: PowerToys
+sidebar:
+  -title: "Algorithm"
     children:
-      - title: "Always on Top"
-        url: /windows/powertoys/always-on-top/
-      - title: "Awake"
-        url: /windows/powertoys/awake/
-      - title: "Color Picker"
-        url: /windows/powertoys/color-picker/
+      - title: ""
+        url: 
+  -title: "Framework"
+    children:
+      - title: ""
+        url: 
+  -title: "Github"
+    children:
+      - title: ""
+        url: 
+  -title: "Language"
+    children:
+      - title: ""
+        url: 
+  - title: "Windows"
+  children:
+    - title: "PowerToys"
+      url: /windows/powertoys/
+    - title: 
+      url: 
 
-github_pages_guide:
-  - title: "Github Pages Guide"
+github/pages/guide:
+  - title: "커스터마이징"
     children:
-      - title: "configuration"
+      - title: "Configuration"
         url: /github/pages/guide/configuration/
+      - title: "Layout"
+        url: /github/pages/guide/layout/
