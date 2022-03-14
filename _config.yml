@@ -182,6 +182,7 @@ defaults:
       toc_sticky: true
       sidebar:
         - nav: sidebar
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
