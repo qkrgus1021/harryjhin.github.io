@@ -32,7 +32,7 @@ sidebar:
   #     - title: ""
   #       url: 
   - title: "Windows"
-  children:
+    children:
     - title: "PowerToys"
       url: /windows/powertoys/
     # - title: 
