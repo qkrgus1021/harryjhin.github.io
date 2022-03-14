@@ -26,7 +26,7 @@ Font Awesome의 종류는 Solid, Regular, Light, Brand가 있습니다.
 
 <i class='fas fa-fw fa-link'></i>
 
-<i class="fas fa-code-compare fa-fw"></i>
+<i class="fas fa-fw fa-code-compare"></i>
 
 ## 스타일링
 
