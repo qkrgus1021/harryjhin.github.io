@@ -264,3 +264,9 @@ Jekyll은 정적 사이트 생성기입니다. 별다른 학습이 필요 없는
 - [Jekyll Docs(EN)](https://jekyllrb.com/docs/)
 - [Jekyll Docs(KR)](https://jekyllrb-ko.github.io/docs/)
 - [Minimal Mistakes Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
+
+---
+
+유용한 사이트
+
+- [아이콘 검색](https://fontawesome.com/icons/0?s=solid)
