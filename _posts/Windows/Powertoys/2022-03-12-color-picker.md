@@ -6,7 +6,7 @@ header:
   overlay_color: "#333"
   actions:
     - label: "PowerToys 더 알아보기"
-      url: "{{ site }}/windows/powertoys/"
+      url: "https://jinhyun.blog/windows/powertoys/"
 
 categories:
   - Windows
