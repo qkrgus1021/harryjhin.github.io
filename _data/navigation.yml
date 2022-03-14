@@ -15,28 +15,28 @@ main:
     url: /about/
 
 sidebar:
-  -title: "Algorithm"
-    children:
-      - title: ""
-        url: 
-  -title: "Framework"
-    children:
-      - title: ""
-        url: 
-  -title: "Github"
-    children:
-      - title: ""
-        url: 
-  -title: "Language"
-    children:
-      - title: ""
-        url: 
+  # -title: "Algorithm"
+  #   children:
+  #     - title: ""
+  #       url: 
+  # -title: "Framework"
+  #   children:
+  #     - title: ""
+  #       url: 
+  # -title: "Github"
+  #   children:
+  #     - title: ""
+  #       url: 
+  # -title: "Language"
+  #   children:
+  #     - title: ""
+  #       url: 
   - title: "Windows"
   children:
     - title: "PowerToys"
       url: /windows/powertoys/
-    - title: 
-      url: 
+    # - title: 
+    #   url: 
 
 github/pages/guide:
   - title: "커스터마이징"
