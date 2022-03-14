@@ -1,2 +1,15 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+@font-face {
+    font-family: "D2Coding";
+    src: url("/assets/fonts/D2Coding-Ver1.3.2-20180524.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JetbrainsMonoNF";
+    src: url("/assets/fonts/JetBrainsMonoRegularNerdFontCompleteMono.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
