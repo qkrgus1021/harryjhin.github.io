@@ -40,6 +40,32 @@ sidebar:
     # - title: 
     #   url: 
 
+windows/powertoys:
+  - title: "PowerToys"
+    children:
+      - title: "Always on Top"
+        url: /windows/powertoys/always-on-top
+      - title: "PowerToys Awake"
+        url: /windows/powertoys/awake/
+      - title: "FancyZones"
+        url: /windows/powertoys/fancy-zones/
+      - title: "File Explorer Add-ons"
+        url: /windows/powertoys/file-explorer-add-ons/
+      - title: "Image Resizer"
+        url: /windows/powertoys/image-resizer/
+      - title: "Keyboard Manager"
+        url: /windows/powertoys/keyboard-manager/
+      - title: "Mouse utilities"
+        url: /windows/powertoys/mouse-utilities/
+      - title: "PowerRename"
+        url: /windows/powertoys/power-rename/
+      - title: "PowerToys Run"
+        url: /windows/powertoys/run/
+      - title: "Shortcut Guide"
+        url: /windows/powertoys/shortcut-guide/
+      - title: "Video Conference Mute"
+        url: /windows/powertoys/video-conference-mute/
+
 github/pages/guide:
   - title: "커스터마이징"
     children:
