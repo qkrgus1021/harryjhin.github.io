@@ -3,8 +3,8 @@ main:
     url: /posts/
   # - title: "Categories"
   #   url: /categories/
-  - title: "Windows"
-    url: /windows/
+  - title: "PowerToys"
+    url: /windows/powertoys/
   - title: "Languages"
     url: /langauges/
   - title: "Frameworks"
