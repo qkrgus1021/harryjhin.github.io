@@ -1,6 +1,6 @@
 ---
-title: "PowerToys (4) : FancyZones"
-excerpt: "창 레이아웃을 내가 원하는 레이아웃으로 커스터마이징 할 수 있는 기능"
+title: "PowerToys (12) : Video Conference Mute"
+excerpt: "무엇을 하고 있던지 카메라와 마이크를 시스템적으로 빠르게 음소거할 수 있는 기능"
 
 header:
   overlay_color: "#333"

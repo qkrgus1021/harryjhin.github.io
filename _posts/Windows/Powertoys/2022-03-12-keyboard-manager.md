@@ -1,6 +1,6 @@
 ---
-title: "PowerToys (4) : FancyZones"
-excerpt: "창 레이아웃을 내가 원하는 레이아웃으로 커스터마이징 할 수 있는 기능"
+title: "PowerToys (7) : Keyboard Manager"
+excerpt: "키를 매핑하여 나만의 고유 단축키를 만들 수 있는 기능"
 
 header:
   overlay_color: "#333"

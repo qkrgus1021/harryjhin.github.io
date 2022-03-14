@@ -1,6 +1,6 @@
 ---
-title: "PowerToys (4) : FancyZones"
-excerpt: "창 레이아웃을 내가 원하는 레이아웃으로 커스터마이징 할 수 있는 기능"
+title: "PowerToys (8) : Mouse utilities"
+excerpt: "마우스 커서의 위치를 보다 명확하게 인지할 수 있게 해주는 기능"
 
 header:
   overlay_color: "#333"
