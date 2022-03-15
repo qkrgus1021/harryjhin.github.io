@@ -32,7 +32,8 @@ Font Awesome의 종류는 Solid, Regular, Light, Brand가 있습니다.
 
 <i class="fa-brands fa-youtube"></i>
 
-{% include code-header.html %}
+{% include codeHeader.html %}
+
 ```md
 <i class="fa-brands fa-youtube"></i>
 ```
