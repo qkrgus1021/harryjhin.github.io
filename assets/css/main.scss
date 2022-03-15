@@ -1,29 +1,6 @@
 @charset "utf-8";
 
-@font-face {
-    font-family: "D2Coding";
-    src: url("/assets/fonts/D2Coding-Ver1.3.2-20180524.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "JetbrainsMonoNF";
-    src: url("/assets/fonts/JetBrainsMonoRegularNerdFontCompleteMono.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "KoPubWorldBatang";
-    src: url("/assets/fonts/KoPubWorldBatangMedium.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "KoPubWorldDotum";
-    src: url("/assets/fonts/KoPubWorldDotumMedium.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes";
+@import "font.scss";
+@import "variables.scss";
