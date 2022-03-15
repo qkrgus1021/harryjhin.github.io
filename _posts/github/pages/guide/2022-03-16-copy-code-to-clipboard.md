@@ -11,13 +11,8 @@ categories:
 
 ## 버튼 배치
 
-```html:_includes/codeHeader.html
+```html
 <div class="code-header">
     <button class="copy-code-button" aria-label="Copy code to clipboard"></button>
 </div>
 ```
-
-```md
-{% include codeHeader.html %}
-```
-
