@@ -66,7 +66,7 @@ Font Awesome의 종류는 Solid, Regular, Light, Brand가 있습니다.
 <i class="fas fw fa-code"></i>
 ```
 
-위의 아이콘은 표현되지 않는다. 왜 그런 것일까?
+<i class="fab fw fa-ubuntu"></i>
 
 ## 스타일링
 
