@@ -21,7 +21,7 @@ last_modified_at: 2022-03-15
 
 현재 사용할 수 있는 유틸리티는 다음과 같습니다.
 
-|유틸리티                                                                              |설명                                                                                   |
+|<center>유틸리티</center>                                                             |<center>설명</center>                                                                  |
 |--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 |[Always on Top]({{ site.url }}/windows/powertoys/always-on-top/)                      |어떤 창을 모든 창 위에 위치하도록 하는 기능                                            |
 |[PowerToys Awake]({{ site.url }}/windows/powertoys/awake/)                            |시스템의 전원 설정을 변경할 필요 없이 내가 원하는 대로 절전 시간을 변경할 수 있는 기능 |
@@ -47,7 +47,7 @@ PowerToys를 설치하는 방법은 4가지가 있습니다.
 
 본인이 잘 아는 도구를 통해서 아래 절차에 따라 진행하시면 됩니다.
 
-### Winget
+### <i class="fas fa-fw fa-square-terminal"></i> Winget
 
 1. PowerShell을 관리자 권한으로 실행
 2. 다음 명령어를 입력
@@ -55,8 +55,6 @@ PowerToys를 설치하는 방법은 4가지가 있습니다.
    ```ps
    winget install Microsoft.PowerToys
    ```
-
-![Install-winget](../assets/images/powertoys-winget-install.png)
 
 설치 완료
 
