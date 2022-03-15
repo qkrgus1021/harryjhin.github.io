@@ -12,7 +12,7 @@ Github Pages에 기본적으로 동작하는 Jekyll은 Font Awesome 6를 지원�
 
 Font Awesome의 종류는 Solid, Regular, Light, Brand가 있습니다.
 
-```yaml
+```md
 <i class='fas fa-fw fa-link'></i>
 ```
 
@@ -26,7 +26,29 @@ Font Awesome의 종류는 Solid, Regular, Light, Brand가 있습니다.
 
 <i class='fas fa-fw fa-link'></i>
 
+```md
 <i class="fas fa-fw fa-code-compare"></i>
+```
+
+<i class="fa-brands fa-youtube"></i>
+
+```md
+<i class="fa-brands fa-youtube"></i>
+```
+
+<i class="fab fa-youtube"></i>
+
+```md
+<i class="fab fa-youtube"></i>
+```
+
+<i class="fab fa-fw fa-youtube"></i>
+
+```md
+<i class="fab fa-fw fa-youtube"></i>
+```
+
+위의 아이콘은 표현되지 않는다. 왜 그런 것일까?
 
 ## 스타일링
 
