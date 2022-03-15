@@ -6,7 +6,7 @@ header:
   overlay_color: "#333"
   actions:
     - label: "<i class='fas fa-fw fa-link'></i> 공식 리포지토리 바로가기"
-      url: "https://github.com/microsoft/PowerToys"
+      url: "https://github.com/microsoft/PowerToys"{:target="_blank"}
 sidebar:
   - nav: windows/powertoys
 last_modified_at: 2022-03-15
@@ -38,16 +38,15 @@ last_modified_at: 2022-03-15
 
 ## 설치하는 방법
 
-PowerToys를 설치하는 방법은 4가지가 있습니다.
+PowerToys를 설치하는 방법은 3가지가 있습니다.
 
-- [앱 설치 관리자(`winget` 명령어)](#winget)
-- 마이크로소프트 스토어
-- 공식 홈페이지
+- 앱 설치 관리자(`winget` 명령어)(#winget) <i class="fas fa-fw fa-square-terminal"></i>
+- 마이크로소프트 스토어(#microsoft-store)
 - 깃허브 릴리즈
 
 본인이 잘 아는 도구를 통해서 아래 절차에 따라 진행하시면 됩니다.
 
-### <i class="fas fa-fw fa-square-terminal"></i> Winget
+### Winget
 
 1. PowerShell을 관리자 권한으로 실행
 2. 다음 명령어를 입력
