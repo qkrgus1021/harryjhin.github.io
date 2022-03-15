@@ -6,7 +6,7 @@ header:
   overlay_color: "#333"
   actions:
     - label: "<i class='fas fa-fw fa-link'></i> 공식 리포지토리 바로가기"
-      url: "https://github.com/microsoft/PowerToys"{:target="_blank"}
+      url: "https://github.com/microsoft/PowerToys"
 sidebar:
   - nav: windows/powertoys
 last_modified_at: 2022-03-15
@@ -40,7 +40,7 @@ last_modified_at: 2022-03-15
 
 PowerToys를 설치하는 방법은 3가지가 있습니다.
 
-- 앱 설치 관리자(`winget` 명령어)(#winget) <i class="fas fa-fw fa-square-terminal"></i>
+- 앱 설치 관리자(`winget` 명령어)(#winget)
 - 마이크로소프트 스토어(#microsoft-store)
 - 깃허브 릴리즈
 
