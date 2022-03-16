@@ -11,7 +11,7 @@ title_separator          : "|"
 subtitle                 : "개발 일지" # site tagline that appears below site title in masthead
 name                     : "Harry Jhin"
 description              : "최소한의 시행착오와 반복되는 실수를 막는 블로그"
-url                      : "https://jinhyun.blog/"
+url                      : "https://jinhyun.blog"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "HarryJhin/harryjhin.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
