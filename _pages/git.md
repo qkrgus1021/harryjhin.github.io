@@ -62,4 +62,4 @@ Git 디렉토리에 있는 파일은 `Committed` 상태입니다. 여기서 파�
 
 ---
 
-[다음]({{ site.url }}/git/install/){:target="_blank"}
+[다음]({{ site.url }}/git/install/)
