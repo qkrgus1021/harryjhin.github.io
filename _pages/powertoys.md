@@ -5,7 +5,7 @@ excerpt: "Microsoft PowerToys는 고급 사용자가 생산성을 높이기 위�
 header:
   overlay_color: "#333"
   actions:
-    - label: "<i class='fas fa-fw fa-link'></i> 공식 리포지토리 바로가기"
+    - label: "<i class='fab fa-fw fa-github'></i> 공식 리포지토리 바로가기"
       url: "https://github.com/microsoft/PowerToys"
 sidebar:
   - nav: windows/powertoys
