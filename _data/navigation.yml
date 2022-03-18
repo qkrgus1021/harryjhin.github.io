@@ -5,12 +5,12 @@ main:
   #   url: /categories/
   - title: "PowerToys"
     url: /windows/powertoys/
-  - title: "Languages"
-    url: /langauges/
-  - title: "Frameworks"
-    url: /frameworks/
-  - title: "Algorithm"
-    url: /algorithm/
+  # - title: "Languages"
+  #   url: /langauges/
+  # - title: "Frameworks"
+  #   url: /frameworks/
+  # - title: "Algorithm"
+  #   url: /algorithm/
   - title: "Test"
     url: /test/
   - title: "About"
@@ -37,6 +37,9 @@ sidebar:
     children:
     - title: "PowerToys"
       url: /windows/powertoys/
+      children:
+        - title: "Always on Top"
+          url: /windows/powertoys/always-on-top
     # - title: 
     #   url: 
 
