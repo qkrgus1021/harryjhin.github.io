@@ -197,6 +197,8 @@ defaults:
       toc: true
       toc_label: "목차"
       toc_sticky: true
+      sidebar:
+        - nav: sidebar
 
 category_archive:
   type: liquid
