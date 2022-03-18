@@ -1,9 +1,7 @@
 ---
-permalink: /liquid/
+permalink: /jekyll/liquid/
 title: "Liquid"
 excerpt: "Liquid는 Jekyll에서 사용할 수 있는 템플릿 언어로 동적 콘텐츠를 표현할 수 있습니다"
-categories:
-  - Liquid
 ---
 
 ## 객체
