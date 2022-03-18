@@ -206,12 +206,3 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-languages_archive:
-  type: liquid
-  path: /languages/
-windows_archive:
-  type: liquide
-  path: /windows/
-powertoys_archive:
-  type: liquide
-  path: /windows/powertoys/
