@@ -13,6 +13,8 @@ Github Pages 리포지토리(`사용자이름.github.io`) 로 푸시하면 알�
 
 또 다른 문제는 문법적 오류나 잘못된 설정으로 인한 에러가 날 경우 github-pages에만 의존하여 확인하기 너무 어렵습니다.
 
+![Jekyll 로컬 설치가 필요한 이유]({% link /assets/images/jekyll-reason.jpeg %})
+
 그렇기에 로컬 빌드를 통한 로컬호스트 확인이 필요합니다. Jekyll을 설치하여 2~3초면 즉각 테스트할 수 있습니다.
 
 ## 필요한 것
@@ -65,3 +67,5 @@ Jekyll은 자주 업데이트되는 인기만점 오픈 소스 프로젝트입�
 
 1. 터미널 열기
 2. `bundle update github-pages`
+
+앞으로 Jekyll 테스트 하는데 시간낭비하는 일 없기를...
