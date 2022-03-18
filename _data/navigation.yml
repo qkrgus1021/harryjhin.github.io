@@ -39,14 +39,14 @@ sidebar:
       - title: "Install"
         url: /git/install/
   - title: "Liquid"
-    url: /liquid/
+    url: /jekyll/liquid/
     children:
       - title: "기본"
-        url: /liquid/basics/
+        url: /jekyll/liquid/basics/
       - title: "태그"
-        url: /liquid/tags/
+        url: /jekyll/liquid/tags/
       - title: "필터"
-        url: /liquid/filters/
+        url: /jekyll/liquid/filters/
   - title: "PowerToys"
     url: /windows/powertoys/
     children:
