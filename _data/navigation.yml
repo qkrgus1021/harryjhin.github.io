@@ -34,9 +34,19 @@ sidebar:
   #     - title: ""
   #       url: 
   - title: "Git"
+    url: /git/
     children:
       - title: "Install"
         url: /git/install/
+  - title: "Liquid"
+    url: /liquid/
+    children:
+      - title: "기본"
+        url: /liquid/basics/
+      - title: "태그"
+        url: /liquid/tags/
+      - title: "필터"
+        url: /liquid/filters/
   - title: "PowerToys"
     url: /windows/powertoys/
     children:
