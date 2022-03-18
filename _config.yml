@@ -108,7 +108,7 @@ include:
 # Site Author
 author:
   name   : "Harry Jhin"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/author-profile.jpg"
   bio    : "Algorithm, Spring Boot, Flutter에 대해 공부하는 늅늅이"
   links:
     - label: "Email"
