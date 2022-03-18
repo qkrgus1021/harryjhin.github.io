@@ -161,11 +161,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-collections:
-  windows:
-    output: true
-    permalink: /:collection/:path/
-
 defaults:
   # _posts
   - scope:
