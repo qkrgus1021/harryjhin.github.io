@@ -3,13 +3,14 @@ permalink: /windows/powertoys/
 title: "PowerToys"
 excerpt: "Microsoft PowerToys는 고급 사용자가 생산성을 높이기 위해 Windows 환경을 조정하고 간소화하는 데 사용할 수 있는 유틸리티 세트입니다."
 header:
-  overlay_color: "#333"
   actions:
     - label: "<i class='fab fa-fw fa-github'></i> 공식 리포지토리 바로가기"
       url: "https://github.com/microsoft/PowerToys"
 sidebar:
   - nav: windows/powertoys
-last_modified_at: 2022-03-15
+layout: category
+taxonomy: powertoys
+entries_layout: grid
 ---
 
 ## 프로세서 지원
@@ -40,9 +41,9 @@ last_modified_at: 2022-03-15
 
 PowerToys를 설치하는 방법은 3가지가 있습니다.
 
-- 앱 설치 관리자(`winget` 명령어)(#winget)
-- 마이크로소프트 스토어(#microsoft-store)
-- 깃허브 릴리즈
+- [앱 설치 관리자(`winget` 명령어)](#winget)
+- [마이크로소프트 스토어](#microsoft-store)
+- [깃허브 릴리즈](#github-release)
 
 본인이 잘 아는 도구를 통해서 아래 절차에 따라 진행하시면 됩니다.
 
@@ -55,8 +56,17 @@ PowerToys를 설치하는 방법은 3가지가 있습니다.
    winget install Microsoft.PowerToys
    ```
 
-설치 완료
-
 ### Microsoft Store
 
+1. Microsoft Store 실행
+2. 'PowerToys' 검색
+3. 'Microsoft Powertoys' 설치
+
 ### Github Release
+
+1. <https://github.com/microsoft/PowerToys/releases/> 클릭
+2. `PowerToysSetup-0.nn.n-x64.exe` 다운로드 및 실행
+
+---
+
+## 관련된 전체 포스트
