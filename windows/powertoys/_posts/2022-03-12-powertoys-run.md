@@ -146,7 +146,7 @@ Visual Studio Code에서 작업한 워크 스페이스를 Run을 통해 바로 �
 
 윈도우 설정에서 지정한 기본 브라우저의 검색 엔진으로 쿼리를 바로 검색합니다.
 
-**정보**: Don't include in global results on queries that are URIs 옵션을 키는 것을 추천합니다. URI 쿼리인 경우 웹 검색이 아니기 때문에 결과에 제외하는 것이 자연스럽습니다.
+**정보**: Don't include in global results on queries that are URIs 옵션을 끄는 것을 추천합니다. 한국어로 쿼리를 작성할 경우 이 옵션이 작동합니다. 아직 덜 똑똑하기 때문에 추후 개선을 바래야 합니다.
 {: .notice--info}
 
 ### Windows 설정
