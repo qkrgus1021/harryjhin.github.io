@@ -179,6 +179,8 @@ defaults:
       sidebar:
         - nav: sidebar
       show_date: true
+      header:
+        overlay_color: "#333"
   # _pages
   - scope:
       path: "_pages"
@@ -194,6 +196,10 @@ defaults:
       toc_sticky: true
       sidebar:
         - nav: sidebar
+      header:
+        overlay_color: "#437299"
+      layout: category
+      entries_layout: grid
 
 category_archive:
   type: liquid
