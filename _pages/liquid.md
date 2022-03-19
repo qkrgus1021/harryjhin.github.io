@@ -2,107 +2,23 @@
 permalink: /jekyll/liquid/
 title: "Liquid"
 excerpt: "Liquid는 Jekyll에서 사용할 수 있는 템플릿 언어로 동적 콘텐츠를 표현할 수 있습니다"
+taxonomy: liquid
 ---
 
-## 객체
+Liquid는 Shopify에서 만들고 Ruby로 작성된 오픈 소스 템플릿 언어입니다. 동적 콘텐츠를 로드하는 데 사용됩니다.
 
-**객체**에는 Liquid가 페이지에 표시하는 콘텐츠가 포함됩니다. 이중 중괄호({% raw %}`{{`, `}}`{% endraw %})로 묶이면 객체와 변수가 표시됩니다.
+Liquid는 유연하고 안전한 언어이며 다양한 환경에서 사용됩니다.
 
-**Input**:
+Liquid는 Shopify 스토어에서 사용하기 위해 만들어졌으며 Jekyll 웹사이트에서도 광범위하게 사용됩니다. 시간이 지남에 따라 Shopify와 Jekyll은 모두 자체 개체, 태그 및 필터를 Liquid에 추가했습니다. 존재하는 Liquid의 가장 인기 있는 버전은 Liquid, Shopify Liquid 및 Jekyll Liquid입니다.
 
-{% raw %}
+필자는 Jekyll Liquid에 대해서 다룹니다.
 
-```md
-{{ page.title }}
-```
+Jekyll은 Liquid를 템플릿 언어로 사용하고 몇 가지 객체, 태그 및 필터를 추가합니다. 여기에는 콘텐츠 페이지를 나타내는 객체, 다른 콘텐츠의 스니펫을 포함하기 위한 태그, 문자열 및 URL을 조작하기 위한 필터가 포함됩니다.
 
-{% endraw %}
+또한 Jekyll은 Jekyll 설치를 GitHub 리포지토리에 푸시하고 결과 웹사이트를 게시할 수 있는 웹 호스팅 서비스인 [GitHub Pages](https://pages.github.com/)를 제공합니다.
 
-**Output**:
+여러분이 보고 있는 이 사이트도 GitHub Pages를 사용하여 구축되었습니다.
 
-```md
-{{ page.title }}
-```
+## 관련 포스트
 
-이 경우 Liquid는 '{{ page.title }}'라는 텍스트가 포함된 페이지 객체의 title 속성을 렌더링합니다.
-
-## 태그
-
-**태그**는 템플릿에 대한 논리 및 제어 흐름을 생성합니다.
-
-중괄호, 퍼센트 기호로 표현합니다.
-
-{% raw %}
-
-```md
-{% %}
-```
-
-{% endraw %}
-
-태그 안 텍스트는 템플릿이 렌더링될 때 가시적인 출력을 생성하지 않습니다.
-
-이를 통해 페이지에 Liquid 로직을 표시하지 않고 변수를 할당하고 조건 또는 루프를 생성할 수 있습니다.
-
-**Input**:
-
-{% raw %}
-
-```md
-{% if site.name %}
-  Hello {{ site.name }}!
-{% endif %}
-```
-
-{% endraw %}
-
-**Output**:
-
-{% if site.name %}
-  Hello {{ site.name }}!
-{% endif %}
-
-태그는 다음과 같이 분류됩니다.
-
-- [흐름 제어 (Control flow)]({{ site.url }}/liquid/control-flow/)
-- [반복 (Iteration)]({{ site.url }}/liquid/iteration/)
-- [템플릿 (Template)]({{ site.url }}/liquid/template/)
-- [변수 할당 (Variable assignment)]({{ site.url }}/liquid/variable-assignment/)
-
-각 태그 유형에 대한 자세한 내용은 해당 섹션에서 확인할 수 있습니다.
-
-## 필터
-
-**필터**는 Liquid 객체 또는 변수의 출력을 변경합니다.
-
-이중 중괄호 및 변수 할당 내에서 사용되며 파이프 문자 `|`로 구분됩니다.
-
-**Input**:
-
-{% raw %}
-
-```md
-{{ "/my/fancy/url" | append: ".html" }}
-```
-
-{% endraw %}
-
-**Output**:
-
-{{ "/my/fancy/url" | append: ".html" }}
-
-하나의 출력에 여러 필터를 사용할 수 있으며 왼쪽에서 오른쪽으로 적용됩니다.
-
-**Input**:
-
-{% raw %}
-
-```md
-{{ "adam!" | capitalize | prepend: "Hello " }}
-```
-
-{% endraw %}
-
-**Output**:
-
-{{ "adam!" | capitalize | prepend: "Hello " }}
+---

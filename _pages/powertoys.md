@@ -6,11 +6,7 @@ header:
   actions:
     - label: "<i class='fab fa-fw fa-github'></i> 공식 리포지토리 바로가기"
       url: "https://github.com/microsoft/PowerToys"
-sidebar:
-  - nav: windows/powertoys
-layout: category
 taxonomy: powertoys
-entries_layout: grid
 ---
 
 ## 프로세서 지원
@@ -67,6 +63,6 @@ PowerToys를 설치하는 방법은 3가지가 있습니다.
 1. <https://github.com/microsoft/PowerToys/releases/> 클릭
 2. `PowerToysSetup-0.nn.n-x64.exe` 다운로드 및 실행
 
----
+## 관련 포스트
 
-## 관련된 전체 포스트
+---
