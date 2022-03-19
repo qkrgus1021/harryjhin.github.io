@@ -2,7 +2,7 @@
 permalink: /windows/
 title: "Windows"
 excerpt: "윈도우에서 유용하게 쓰는 도구를 소개합니다"
-classes: wide
+taxonomy: windows
 ---
 
 ## PowerToys
@@ -16,3 +16,7 @@ PowerToys에 대해 더 자세히 알고 싶다면 아래 링크를 클릭하세
 ## Visual Studio Code
 
 ## Winget
+
+## 관련 포스트
+
+---

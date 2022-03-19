@@ -1,17 +1,8 @@
 ---
 title: "PowerToys (10) : PowerToys Run"
 excerpt: ""
-
 header:
-  overlay_color: "#333"
   actions:
     - label: "PowerToys 더 알아보기"
       url: "https://jinhyun.blog/windows/powertoys/"
-
-categories:
-  - Windows
-  - PowerToys
-
-sidebar:
-  - nav: windows/powertoys
 ---

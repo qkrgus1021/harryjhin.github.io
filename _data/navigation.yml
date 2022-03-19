@@ -4,29 +4,19 @@ main:
   - title: "PowerToys"
     url: /windows/powertoys/
 
-github/pages/guide:
-  - title: "커스터마이징"
+sidebar:
+  - title: "Git"
+    url: /git/
     children:
-      - title: "Configuration"
-        url: /github/pages/guide/configuration/
-      - title: "Layout"
-        url: /github/pages/guide/layout/
-
-jekyll:
+      - title: "설치"
+        url: /git/install/
   - title: "Jekyll"
     url: /jekyll/
     children:
       - title: "Front Matter"
         url: /jekyll/front-matter/
-      - title: "Liquid"
-        url: /jekyll/liquid/
-
-sidebar:
-  - title: "Git"
-    url: /git/
-    children:
-      - title: "Install"
-        url: /git/install/
+      - title: "로컬 테스트"
+        url: /jekyll/local-test/
   - title: "Liquid"
     url: /jekyll/liquid/
     children:
@@ -58,7 +48,7 @@ sidebar:
       - title: "# 9 PowerRename"
         url: /windows/powertoys/power-rename/
       - title: "#10 PowerToys Run"
-        url: /windows/powertoys/run/
+        url: /windows/powertoys/powertoys-run/
       - title: "#11 단축키 가이드"
         url: /windows/powertoys/shortcut-guide/
       - title: "#12 화상 회의 음소거"
