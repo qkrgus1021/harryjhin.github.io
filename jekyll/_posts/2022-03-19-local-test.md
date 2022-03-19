@@ -1,8 +1,6 @@
 ---
 title: "Jekyll : 로컬에서 테스트"
 excerpt: "수정한 내용을 Github Pages의 빌드가 아닌 로컬에서 바로 확인하기"
-categories:
-  - Jekyll
 ---
 
 Github Pages 리포지토리(`사용자이름.github.io`) 로 푸시하면 알아서 빌드 후 배포까지 해줍니다.
