@@ -1,8 +1,10 @@
 main:
-  - title: "Posts"
+  - title: "포스트"
     url: /posts/
-  - title: "PowerToys"
-    url: /windows/powertoys/
+  - title: "지킬"
+    url: /jekyll/
+  - title: "윈도우"
+    url: /windows/
 
 sidebar:
   - title: "Git"
@@ -29,27 +31,27 @@ sidebar:
   - title: "PowerToys"
     url: /windows/powertoys/
     children:
-      - title: "# 1 항상 위"
+      - title: "├ 1 항상 위"
         url: /windows/powertoys/always-on-top
-      - title: "# 2 절전 모드 해제"
+      - title: "├ 2 절전 모드 해제"
         url: /windows/powertoys/awake/
-      - title: "# 3 색 선택기"
+      - title: "├ 3 색 선택기"
         url: /windows/powertoys/color-picker/
-      - title: "# 4 FancyZones"
+      - title: "├ 4 FancyZones"
         url: /windows/powertoys/fancy-zones/
-      - title: "# 5 파일 탐색기 추가 기능"
+      - title: "├ 5 파일 탐색기 추가 기능"
         url: /windows/powertoys/file-explorer-add-ons/
-      - title: "# 6 그림 크기 조정"
+      - title: "├ 6 그림 크기 조정"
         url: /windows/powertoys/image-resizer/
-      - title: "# 7 Keyboard Manager"
+      - title: "├ 7 Keyboard Manager"
         url: /windows/powertoys/keyboard-manager/
-      - title: "# 8 마우스 유틸리티"
+      - title: "├ 8 마우스 유틸리티"
         url: /windows/powertoys/mouse-utilities/
-      - title: "# 9 PowerRename"
+      - title: "├ 9 PowerRename"
         url: /windows/powertoys/power-rename/
-      - title: "#10 PowerToys Run"
+      - title: "├10 PowerToys Run"
         url: /windows/powertoys/powertoys-run/
-      - title: "#11 단축키 가이드"
+      - title: "├11 단축키 가이드"
         url: /windows/powertoys/shortcut-guide/
-      - title: "#12 화상 회의 음소거"
+      - title: "└12 화상 회의 음소거"
         url: /windows/powertoys/video-conference-mute/
