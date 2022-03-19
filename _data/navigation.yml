@@ -1,38 +1,27 @@
 main:
   - title: "Posts"
     url: /posts/
-  # - title: "Categories"
-  #   url: /categories/
   - title: "PowerToys"
     url: /windows/powertoys/
-  # - title: "Languages"
-  #   url: /langauges/
-  # - title: "Frameworks"
-  #   url: /frameworks/
-  # - title: "Algorithm"
-  #   url: /algorithm/
-  - title: "Test"
-    url: /test/
-  - title: "About"
-    url: /about/
+
+github/pages/guide:
+  - title: "커스터마이징"
+    children:
+      - title: "Configuration"
+        url: /github/pages/guide/configuration/
+      - title: "Layout"
+        url: /github/pages/guide/layout/
+
+jekyll:
+  - title: "Jekyll"
+    url: /jekyll/
+    children:
+      - title: "Front Matter"
+        url: /jekyll/front-matter/
+      - title: "Liquid"
+        url: /jekyll/liquid/
 
 sidebar:
-  # -title: "Algorithm"
-  #   children:
-  #     - title: ""
-  #       url: 
-  # -title: "Framework"
-  #   children:
-  #     - title: ""
-  #       url: 
-  # -title: "Github"
-  #   children:
-  #     - title: ""
-  #       url: 
-  # -title: "Language"
-  #   children:
-  #     - title: ""
-  #       url: 
   - title: "Git"
     url: /git/
     children:
@@ -50,59 +39,27 @@ sidebar:
   - title: "PowerToys"
     url: /windows/powertoys/
     children:
-      - title: "Always on Top"
+      - title: "# 1 항상 위"
         url: /windows/powertoys/always-on-top
-      - title: "PowerToys Awake"
+      - title: "# 2 절전 모드 해제"
         url: /windows/powertoys/awake/
-      - title: "FancyZones"
+      - title: "# 3 색 선택기"
+        url: /windows/powertoys/color-picker/
+      - title: "# 4 FancyZones"
         url: /windows/powertoys/fancy-zones/
-      - title: "File Explorer Add-ons"
+      - title: "# 5 파일 탐색기 추가 기능"
         url: /windows/powertoys/file-explorer-add-ons/
-      - title: "Image Resizer"
+      - title: "# 6 그림 크기 조정"
         url: /windows/powertoys/image-resizer/
-      - title: "Keyboard Manager"
+      - title: "# 7 Keyboard Manager"
         url: /windows/powertoys/keyboard-manager/
-      - title: "Mouse utilities"
+      - title: "# 8 마우스 유틸리티"
         url: /windows/powertoys/mouse-utilities/
-      - title: "PowerRename"
+      - title: "# 9 PowerRename"
         url: /windows/powertoys/power-rename/
-      - title: "PowerToys Run"
+      - title: "#10 PowerToys Run"
         url: /windows/powertoys/run/
-      - title: "Shortcut Guide"
+      - title: "#11 단축키 가이드"
         url: /windows/powertoys/shortcut-guide/
-      - title: "Video Conference Mute"
+      - title: "#12 화상 회의 음소거"
         url: /windows/powertoys/video-conference-mute/
-
-windows/powertoys:
-  - title: "PowerToys"
-    children:
-      - title: "Always on Top"
-        url: /windows/powertoys/always-on-top
-      - title: "PowerToys Awake"
-        url: /windows/powertoys/awake/
-      - title: "FancyZones"
-        url: /windows/powertoys/fancy-zones/
-      - title: "File Explorer Add-ons"
-        url: /windows/powertoys/file-explorer-add-ons/
-      - title: "Image Resizer"
-        url: /windows/powertoys/image-resizer/
-      - title: "Keyboard Manager"
-        url: /windows/powertoys/keyboard-manager/
-      - title: "Mouse utilities"
-        url: /windows/powertoys/mouse-utilities/
-      - title: "PowerRename"
-        url: /windows/powertoys/power-rename/
-      - title: "PowerToys Run"
-        url: /windows/powertoys/run/
-      - title: "Shortcut Guide"
-        url: /windows/powertoys/shortcut-guide/
-      - title: "Video Conference Mute"
-        url: /windows/powertoys/video-conference-mute/
-
-github/pages/guide:
-  - title: "커스터마이징"
-    children:
-      - title: "Configuration"
-        url: /github/pages/guide/configuration/
-      - title: "Layout"
-        url: /github/pages/guide/layout/
