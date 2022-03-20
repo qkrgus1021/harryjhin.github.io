@@ -6,3 +6,5 @@ header:
     - label: "PowerToys 더 알아보기"
       url: "https://jinhyun.blog/windows/powertoys/"
 ---
+
+키를 내가 원하는 키로 매핑하는 유틸리티입니다.
