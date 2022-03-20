@@ -4,6 +4,7 @@ excerpt: "고전적인 'Hello World!'를 출력하는 앱을 만들기"
 header:
   actions:
     - label: Spring Boot 더 알아보기
+      url: https://jinhyun.blog/frameworks/spring-boot/
 ---
 
 이 포스트에서는 "Hello World"를 출력하는 앱을 개발합니다.
