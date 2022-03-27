@@ -3,10 +3,10 @@ main:
     url: /posts/
   - title: "지킬"
     url: /jekyll/
-  - title: 프레임워크
-    url: /frameworks/
-  - title: "윈도우"
-    url: /windows/
+  - title: 스프링 부트
+    url: /frameworks/spring-boot/
+  - title: 파워토이즈
+    url: /windows/powertoys/
 
 sidebar:
   - title: 스프링 부트
