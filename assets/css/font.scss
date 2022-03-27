@@ -6,6 +6,13 @@
 }
 
 @font-face {
+    font-family: "NanumGothicCoding";
+    src: url("/assets/fonts/NanumGothicCoding.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: "Jetbrains Mono NF";
     src: url("/assets/fonts/JetBrainsMonoRegularNerdFontCompleteMono.ttf") format('truetype');
     font-weight: normal;
