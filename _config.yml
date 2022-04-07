@@ -1,14 +1,14 @@
 # Theme Settings
-
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 
 # Site Settings
 locale                   : "ko-KR"
 title                    : "Harry Jhin's Blog"
 title_separator          : "|"
-subtitle                 : "개발 일지" # site tagline that appears below site title in masthead
+subtitle                 : "개발 일지"
 name                     : "Harry Jhin"
 description              : "최소한의 시행착오와 반복되는 실수를 막는 블로그"
 url                      : "https://jinhyun.blog"
@@ -22,18 +22,6 @@ date_format              : "%Y년 %-m월 %-d일"
 words_per_minute         : 200
 comments:
   provider               : "giscus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-  utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
   giscus:
     repo_id              : "R_kgDOG-8U6g" # Shown during giscus setup at https://giscus.app
     category_name        : "Announcements" # Full text name of the category
@@ -41,18 +29,15 @@ comments:
     discussion_term      : "pathname" # "pathname" (default), "url", "title", "og:title"
     reactions_enabled    : '1' # '1' for enabled (default), '0' for disabled
     theme                : "dark" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
-  staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                :
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search: true
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true
+search_full_content      : true # true, false (default)
+search_provider          : "lunr" # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -67,6 +52,7 @@ bing_site_verification   :
 naver_site_verification  : "5b57a1b99e2bfd39ef6132ba5a4da5a48c5a2609"
 yandex_site_verification :
 baidu_site_verification  :
+
 
 # Social Sharing
 twitter:
@@ -83,6 +69,7 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
+
 # Analytics
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
@@ -90,42 +77,20 @@ analytics:
     tracking_id          : "G-3TYEXQTJ2M"
     anonymize_ip         : # true, false (default)
 
-# Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-# Outputting
-permalink: /:categories/:title/
-# 페이지 매김을 사용하는 경우 다음을 사용하여 표시되는 게시물의 양을 변경할 수 있습니다.
-paginate: 5
-paginate_path: /page:num/
-# Ruby가 시간 및 날짜 생성 및 조작을 처리하는 데 사용하는 시간대 환경 변수를 설정합니다. 기본값은 운영체제에서 설정한 현지 시간대입니다.
-# 확인: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Seoul
-
-include:
-  - _pages
 
 # Site Author
 author:
   name   : "Harry Jhin"
   avatar : "/assets/images/author-profile.jpg"
-  bio    : "Algorithm, Spring Boot, Flutter에 대해 공부하는 늅늅이"
+  bio    : "산업기능요원해야 되는 나는 빡빡이"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:joojinhyun00@gmail.com
-    # - label: "Website"
-    #   icon: "fas fa-fw fa-link"
-    #   url: "https://jinhyun.blog/"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/HarryJhin"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
+
 
 # Site Footer
 footer:
@@ -140,17 +105,76 @@ footer:
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  # - /docs # ignore Minimal Mistakes /docs
+  # - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone: Asia/Seoul # 확인: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
 
 # Plugins (previously gems:)
 plugins:
@@ -158,10 +182,26 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
 
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+
 defaults:
+  # categories
+  - scope:
+      type: categories
+    values:
+      layout: category
+      permalink: /:categories/
+
   # _posts
   - scope:
       path: ""
@@ -205,8 +245,13 @@ defaults:
   - scope:
       path: "languages"
     values:
+      author_profile: true
       sidebar:
         - nav: languages
+      header:
+        overlay_color: "#437299"
+      layout: category
+      entries_layout: grid
   
   # java
   - scope:
@@ -226,11 +271,3 @@ defaults:
         actions:
           - label: <i class='fas fa-fw fa-link'></i> 자바 더 알아보기
             url: /languages/java/
-
-# 아카이브
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
