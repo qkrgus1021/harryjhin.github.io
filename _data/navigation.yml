@@ -77,7 +77,7 @@ languages:
         url: /languages/java/람다식/
 
 
-Tools:
+tools:
   - title: PowerToys
     url: /tools/powertoys/
     children:
