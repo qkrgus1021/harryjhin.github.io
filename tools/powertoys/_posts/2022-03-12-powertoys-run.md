@@ -1,10 +1,6 @@
 ---
 title: "PowerToys (10) : PowerToys Run"
 excerpt: "앱을 빠르게 시작하거나 파일을 찾고 웹을 검색합니다"
-header:
-  actions:
-    - label: "PowerToys 더 알아보기"
-      url: "https://jinhyun.blog/windows/powertoys/"
 ---
 
 PowerToys를 사용하는 이유이기도한 유틸리티입니다.

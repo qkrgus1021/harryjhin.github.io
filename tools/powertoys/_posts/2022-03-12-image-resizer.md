@@ -1,10 +1,6 @@
 ---
 title: "PowerToys (6) : Image Resizer"
 excerpt: "이미지의 사이즈를 내가 원하는 크기로 변경할 수 있는 기능"
-header:
-  actions:
-    - label: "PowerToys 더 알아보기"
-      url: "https://jinhyun.blog/windows/powertoys/"
 ---
 
 그림 파일에 우클릭을 하면 `그림 크기 조정` 메뉴가 생깁니다. 클릭하면 미리 설정한 프리셋이나 자유롭게 입력한 크기로 변환할 수 있습니다.

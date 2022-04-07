@@ -1,8 +1,6 @@
 ---
-permalink: /windows/
-title: "Windows"
-excerpt: "윈도우에서 유용하게 쓰는 도구를 소개합니다"
-taxonomy: windows
+title: "도구"
+taxonomy: tools
 ---
 
 ## PowerToys

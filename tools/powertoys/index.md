@@ -1,5 +1,4 @@
 ---
-permalink: /windows/powertoys/
 title: "PowerToys"
 excerpt: "Microsoft PowerToys는 고급 사용자가 생산성을 높이기 위해 Windows 환경을 조정하고 간소화하는 데 사용할 수 있는 유틸리티 세트입니다."
 header:

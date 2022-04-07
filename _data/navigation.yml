@@ -5,72 +5,62 @@ main:
     url: /jekyll/
   - title: 언어
     url: /languages/
-  - title: 윈도우
-    url: /windows/
+  - title: 도구
+    url: /tools/
 
 sidebar:
-  - title: 스프링 부트
-    url: /frameworks/spring-boot/
+  - title: 프레임워크
+    url: /frameworks/
     children:
-      - title: 시작하기
-        url: /frameworks/spring-boot/start/
-      - title: Hello World 만들기
-        url: /frameworks/spring-boot/hello-world/
-  - title: "Git"
-    url: /git/
-    children:
-      - title: "설치"
-        url: /git/install/
-  - title: "Jekyll"
+      - title: 플러터
+        url: /frameworks/flutter/
+      - title: 스프링 부트
+        url: /frameworks/spring-boot/
+  - title: 지킬
     url: /jekyll/
     children:
       - title: "Front Matter"
         url: /jekyll/front-matter/
       - title: "로컬 테스트"
         url: /jekyll/local-test/
-  - title: "Liquid"
-    url: /jekyll/liquid/
-    children:
-      - title: "기본"
-        url: /jekyll/liquid/basics/
-      - title: "태그"
-        url: /jekyll/liquid/tags/
-      - title: "필터"
-        url: /jekyll/liquid/filters/
-  - title: Languages
+      - title: "Liquid"
+        url: /jekyll/liquid/
+  - title: 언어
     url: /languages/
     children:
       - title: Dart
         url: /languages/dart/
       - title: Java
         url: /languages/java/
-  - title: "PowerToys"
-    url: /windows/powertoys/
+  - title: 도구
+    url: /tools/
     children:
-      - title: "항상 위"
-        url: /windows/powertoys/always-on-top
-      - title: "절전 모드 해제"
-        url: /windows/powertoys/awake/
-      - title: "색 선택기"
-        url: /windows/powertoys/color-picker/
-      - title: "FancyZones"
-        url: /windows/powertoys/fancy-zones/
-      - title: "파일 탐색기 추가 기능"
-        url: /windows/powertoys/file-explorer-add-ons/
-      - title: "그림 크기 조정"
-        url: /windows/powertoys/image-resizer/
-      - title: "Keyboard Manager"
-        url: /windows/powertoys/keyboard-manager/
-      - title: "마우스 유틸리티"
-        url: /windows/powertoys/mouse-utilities/
-      - title: "PowerRename"
-        url: /windows/powertoys/power-rename/
-      - title: "PowerToys Run"
-        url: /windows/powertoys/powertoys-run/
-      - title: "단축키 가이드"
-        url: /windows/powertoys/shortcut-guide/
-      - title: "화상 회의 음소거"
-        url: /windows/powertoys/video-conference-mute/
+      - title: "PowerToys"
+        url: /tools/powertoys/
+  - title: 깃
+    url: /git/
+    children:
+      - title: "설치"
+        url: /git/install/
+  
+
+frameworks:
+  - title: 플러터
+    url: /frameworks/flutter/
+    children:
+      - title: start
+        url: /frameworks/flutter/start/
+  - title: 스프링부트
+    url: /frameworks/spring-boot/
+    children:
+      - title: start
+        url: /frameworks/spring-boot/start/
+
+
+jekyll:
+  - title: Liquid
+    url: /jekyll/liquid/
+
 
 languages:
   - title: Dart
@@ -85,3 +75,33 @@ languages:
         url: /languages/java/소개/
       - title: 람다식
         url: /languages/java/람다식/
+
+
+Tools:
+  - title: PowerToys
+    url: /tools/powertoys/
+    children:
+      - title: "항상 위"
+        url: /tools/powertoys/always-on-top
+      - title: "절전 모드 해제"
+        url: /tools/powertoys/awake/
+      - title: "색 선택기"
+        url: /tools/powertoys/color-picker/
+      - title: "FancyZones"
+        url: /tools/powertoys/fancy-zones/
+      - title: "파일 탐색기 추가 기능"
+        url: /tools/powertoys/file-explorer-add-ons/
+      - title: "그림 크기 조정"
+        url: /tools/powertoys/image-resizer/
+      - title: "Keyboard Manager"
+        url: /tools/powertoys/keyboard-manager/
+      - title: "마우스 유틸리티"
+        url: /tools/powertoys/mouse-utilities/
+      - title: "PowerRename"
+        url: /tools/powertoys/power-rename/
+      - title: "PowerToys Run"
+        url: /tools/powertoys/powertoys-run/
+      - title: "단축키 가이드"
+        url: /tools/powertoys/shortcut-guide/
+      - title: "화상 회의 음소거"
+        url: /tools/powertoys/video-conference-mute/
