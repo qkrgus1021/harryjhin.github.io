@@ -63,5 +63,3 @@ PowerToys를 설치하는 방법은 3가지가 있습니다.
 2. `PowerToysSetup-0.nn.n-x64.exe` 다운로드 및 실행
 
 ## 관련 포스트
-
----
