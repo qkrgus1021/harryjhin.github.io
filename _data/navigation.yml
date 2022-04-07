@@ -1,12 +1,12 @@
 main:
-  - title: "포스트"
-    url: /posts/
-  - title: "지킬"
+  - title: 프레임워크
+    url: /frameworks/
+  - title: 지킬
     url: /jekyll/
-  - title: 스프링 부트
-    url: /frameworks/spring-boot/
-  - title: 파워토이즈
-    url: /windows/powertoys/
+  - title: 언어
+    url: /languages/
+  - title: 윈도우
+    url: /windows/
 
 sidebar:
   - title: 스프링 부트
@@ -37,6 +37,13 @@ sidebar:
         url: /jekyll/liquid/tags/
       - title: "필터"
         url: /jekyll/liquid/filters/
+  - title: Languages
+    url: /languages/
+    children:
+      - title: Dart
+        url: /languages/dart/
+      - title: Java
+        url: /languages/java/
   - title: "PowerToys"
     url: /windows/powertoys/
     children:
@@ -64,3 +71,17 @@ sidebar:
         url: /windows/powertoys/shortcut-guide/
       - title: "화상 회의 음소거"
         url: /windows/powertoys/video-conference-mute/
+
+languages:
+  - title: Dart
+    url: /languages/dart/
+    children:
+      - title: 기본
+        url: /languages/dart/기본/
+  - title: Java
+    url: /languages/java/
+    children:
+      - title: 소개
+        url: /languages/java/소개/
+      - title: 람다식
+        url: /languages/java/람다식/

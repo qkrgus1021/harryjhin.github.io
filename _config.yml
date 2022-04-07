@@ -200,7 +200,34 @@ defaults:
         overlay_color: "#437299"
       layout: category
       entries_layout: grid
+  
+  # languages
+  - scope:
+      path: "languages"
+    values:
+      sidebar:
+        - nav: languages
+  
+  # java
+  - scope:
+      path: "languages/java"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      toc: true
+      toc_label: "목차"
+      toc_sticky: true
+      read_time: true
+      comments: true
+      share: true
+      header:
+        overlay_color: '#333'
+        actions:
+          - label: <i class='fas fa-fw fa-link'></i> 자바 더 알아보기
+            url: /languages/java/
 
+# 아카이브
 category_archive:
   type: liquid
   path: /categories/
