@@ -75,6 +75,16 @@ languages:
         url: /languages/java/소개/
       - title: 람다식
         url: /languages/java/람다식/
+      - title: 함수 인터페이스
+        url: /languages/java/함수-인터페이스/
+      - title: JAR
+        url: /languages/java/jar/
+      - title: 예외
+        url: /languages/java/예외/
+      - title: 오류 처리
+        url: /languages/java/오류-처리/
+      - title: 제네릭
+        url: /languages/java/제네릭/
 
 
 tools:
