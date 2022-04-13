@@ -85,8 +85,12 @@ languages:
         url: /languages/java/오류-처리/
       - title: 단언 (assert)
         url: /languages/java/단언/
+      - title: 로깅 (Logger)
+        url: /languages/java/로깅/
       - title: 제네릭
         url: /languages/java/제네릭/
+      - title: 컬렉션
+        url: /languages/java/컬렉션/
 
 
 tools:
