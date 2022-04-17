@@ -91,6 +91,8 @@ languages:
         url: /languages/java/제네릭/
       - title: 컬렉션
         url: /languages/java/컬렉션/
+      - title: 스레드(Thread)
+        url: /languages/java/스레드/
 
 
 tools:
