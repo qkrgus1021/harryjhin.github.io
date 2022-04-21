@@ -289,6 +289,16 @@ defaults:
   
   # dart
   - scope:
+      path: "languages/cs"
+      type: posts
+    values:
+      header:
+        actions:
+          - label: <i class='fas fa-fw fa-link'></i> C# 더 알아보기
+            url: /languages/cs/
+
+  # dart
+  - scope:
       path: "languages/dart"
       type: posts
     values:

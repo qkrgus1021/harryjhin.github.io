@@ -28,6 +28,8 @@ sidebar:
   - title: 언어
     url: /languages/
     children:
+      - title: C#
+        url: /languages/cs/
       - title: Dart
         url: /languages/dart/
       - title: Java
@@ -63,6 +65,11 @@ jekyll:
 
 
 languages:
+  - title: C#
+    url: /languages/cs/
+    children:
+      - title: 소개
+        url: /languages/cs/소개/
   - title: Dart
     url: /languages/dart/
     children:
