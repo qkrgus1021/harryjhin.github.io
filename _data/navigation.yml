@@ -93,6 +93,8 @@ languages:
         url: /languages/java/컬렉션/
       - title: 스레드(Thread)
         url: /languages/java/스레드/
+      - title: 네트워크(network)
+        url: /languages/java/네트워크/
 
 
 tools:
