@@ -21,8 +21,8 @@ sidebar:
     children:
       - title: "Front Matter"
         url: /jekyll/front-matter/
-      - title: "로컬 테스트"
-        url: /jekyll/local-test/
+      - title: "localhost"
+        url: /jekyll/localhost/
       - title: "Liquid"
         url: /jekyll/liquid/
   - title: 언어
