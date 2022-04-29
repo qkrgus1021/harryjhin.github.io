@@ -37,13 +37,16 @@ sidebar:
   - title: 도구
     url: /tools/
     children:
-      - title: "PowerToys"
+      - title: Git
+        url: /tools/git/
+      - title: IDE
+        url: /tools/ide/
+      - title: PowerToys
         url: /tools/powertoys/
-  - title: 깃
-    url: /git/
-    children:
-      - title: "설치"
-        url: /git/install/
+      - title: Winget
+        url: /tools/winget/
+      - title: WSL
+        url: /tools/wsl/
   
 
 frameworks:
@@ -105,6 +108,15 @@ languages:
 
 
 tools:
+  - title: GIT
+    url: /tools/git/
+    children:
+      - title: 소개
+        url: /tools/git/git-소개/
+      - title: 설치
+        url: /tools/git/git-설치/
+      - title: 최초 설정
+        url: /tools/git/git-최초-설정/
   - title: IDE
     url: /tools/ide/
     children:
@@ -137,3 +149,13 @@ tools:
         url: /tools/powertoys/shortcut-guide/
       - title: "화상 회의 음소거"
         url: /tools/powertoys/video-conference-mute/
+  - title: WINGET
+    url: /tools/winget/
+    children:
+      - title: 이슈
+        url: /tools/winget/winget-issue/
+  - title: WSL
+    url: /tools/wsl/
+    children:
+      - title: 설치
+        url: /tools/wsl/wsl-설치/

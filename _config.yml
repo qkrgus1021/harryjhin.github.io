@@ -329,6 +329,25 @@ defaults:
       sidebar:
         - nav: tools
   
+  # git
+  - scope:
+      path: "tools/git"
+      type: posts
+    values:
+      header:
+        actions:
+          - label: <i class='fas fa-fw fa-link'></i> Git 더 알아보기
+            url: /tools/git/
+  # ide
+  - scope:
+      path: "tools/ide"
+      type: posts
+    values:
+      header:
+        actions:
+          - label: <i class='fas fa-fw fa-link'></i> IDE 더 알아보기
+            url: /tools/ide/
+
   # powertoys
   - scope:
       path: "tools/powertoys"
@@ -338,3 +357,22 @@ defaults:
         actions:
           - label: <i class='fas fa-fw fa-link'></i> PowerToys 더 알아보기
             url: /tools/powertoys/
+
+  # winget
+  - scope:
+      path: "tools/winget"
+      type: posts
+    values:
+      header:
+        actions:
+          - label: <i class='fas fa-fw fa-link'></i> Winget 더 알아보기
+            url: /tools/winget/
+  # wsl
+  - scope:
+      path: "tools/powertoys"
+      type: posts
+    values:
+      header:
+        actions:
+          - label: <i class='fas fa-fw fa-link'></i> WSL 더 알아보기
+            url: /tools/wsl/
