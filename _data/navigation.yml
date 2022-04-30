@@ -159,3 +159,9 @@ tools:
     children:
       - title: 설치
         url: /tools/wsl/wsl-설치/
+      - title: 개발 환경 구성
+        url: /tools/wsl/wsl-개발-환경-구성/
+      - title: bash 꾸미기
+        url: /tools/wsl/bash-꾸미기/
+      - title: Oh My Posh Issue
+        url: /tools/wsl/oh-my-posh-issue/
