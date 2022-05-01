@@ -117,6 +117,10 @@ tools:
         url: /tools/git/git-설치/
       - title: 최초 설정
         url: /tools/git/git-최초-설정/
+      - title: 저장소 생성
+        url: /tools/git/git-init/
+      - title: 버전 관리
+        url: /tools/git/git-version/
   - title: IDE
     url: /tools/ide/
     children:
