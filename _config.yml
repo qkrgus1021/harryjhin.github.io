@@ -202,10 +202,6 @@ defaults:
       layout: category
       author_profile: true
       share: true
-      comments: true
-      toc: true
-      toc_label: "목차"
-      toc_sticky: true
       header:
         overlay_color: "#437299"
       entries_layout: grid
@@ -241,7 +237,16 @@ defaults:
       sidebar:
         - nav: frameworks
   
-  # flutter
+  # Android
+  - scope:
+      path: "frameworks/android"
+      type: posts
+    values:
+      header:
+        actions:
+          - label: <i class='fas fa-fw fa-link'></i> Android 더 알아보기
+            url: /frameworks/android/
+  
   - scope:
       path: "frameworks/flutter"
       type: posts
@@ -320,6 +325,16 @@ defaults:
         actions:
           - label: <i class='fas fa-fw fa-link'></i> Java 더 알아보기
             url: /languages/java/
+  
+  # kotlin
+  - scope:
+      path: "languages/kotlin"
+      type: posts
+    values:
+      header:
+        actions:
+          - label: <i class='fas fa-fw fa-link'></i> Kotlin 더 알아보기
+            url: /languages/kotlin/
 
 
   # tools

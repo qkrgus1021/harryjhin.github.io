@@ -12,6 +12,8 @@ sidebar:
   - title: 프레임워크
     url: /frameworks/
     children:
+      - title: 안드로이드
+        url: /frameworks/android/
       - title: 플러터
         url: /frameworks/flutter/
       - title: 스프링 부트
@@ -34,6 +36,8 @@ sidebar:
         url: /languages/dart/
       - title: Java
         url: /languages/java/
+      - title: kotlin
+        url: /languages/kotlin/
   - title: 도구
     url: /tools/
     children:
@@ -105,6 +109,20 @@ languages:
         url: /languages/java/스레드/
       - title: 네트워크(network)
         url: /languages/java/네트워크/
+  - title: Kotlin
+    url: /languages/kotlin/
+    children:
+      - title: 함수 타입
+        url: /languages/kotlin/function-types/
+      - title: 고차 함수
+        url: /languages/kotlin/high-order-function/
+      - title: 람다 함수
+        url: /languages/kotlin/lamda-function/
+      - title: null 안정성
+        url: /languages/kotlin/null-safety/
+      - title: 범위 함수
+        url: /languages/kotlin/scope-functions/
+
 
 
 tools:
@@ -124,6 +142,8 @@ tools:
   - title: IDE
     url: /tools/ide/
     children:
+      - title: Android Studio
+        url: /tools/ide/android-studio/
       - title: Visual Studio Code
         url: /tools/ide/visual-studio-code/
   - title: PowerToys
