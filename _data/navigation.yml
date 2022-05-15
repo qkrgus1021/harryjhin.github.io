@@ -54,6 +54,19 @@ sidebar:
   
 
 frameworks:
+  - title: 안드로이드
+    url: /frameworks/android/
+    children:
+      - title: setup
+        url: /frameworks/android/setup/
+      - title: 프로젝트 구조
+        url: /frameworks/android/project-structure/
+      - title: 뷰 바인딩 설정
+        url: /frameworks/android/view-binding/
+      - title: 컴포넌트
+        url: /frameworks/android/component/
+      - title: 액티비티
+        url: /frameworks/android/activity/
   - title: 플러터
     url: /frameworks/flutter/
     children:
