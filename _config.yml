@@ -82,7 +82,7 @@ analytics:
 author:
   name   : "Harry Jhin"
   avatar : "/assets/images/author-profile.jpg"
-  bio    : "산업기능요원해야 되는 나는 빡빡이"
+  bio    : "나는 안드로이드 개발자인가?"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
