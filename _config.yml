@@ -1,5 +1,5 @@
 # Theme Settings
-# theme                  : "minimal-mistakes-jekyll"
+# theme                    : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -12,7 +12,7 @@ subtitle                 : "개발 일지"
 name                     : "Harry Jhin"
 description              : "최소한의 시행착오와 반복되는 실수를 막는 블로그"
 url                      : "https://jinhyun.blog"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+# baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "HarryJhin/harryjhin.github.io"
 teaser                   : "/assets/images/teaser.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : #"/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -48,26 +48,26 @@ google:
   instant_search         : # false (default), true
 # SEO Related
 google_site_verification : "a_T4eVx6sv2N6eg-z5dGXpaJ1LOh4VEtEEYHrKx2ZWk"
-bing_site_verification   :
+# bing_site_verification   :
 naver_site_verification  : "5b57a1b99e2bfd39ef6132ba5a4da5a48c5a2609"
-yandex_site_verification :
-baidu_site_verification  :
+# yandex_site_verification :
+# baidu_site_verification  :
 
 
 # Social Sharing
-twitter:
-  username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+# twitter:
+#   username               :
+# facebook:
+#   username               :
+#   app_id                 :
+#   publisher              :
+# og_image                 : # Open Graph/Twitter default site image
+# # For specifying social profiles
+# # - https://developers.google.com/structured-data/customize/social-profiles
+# social:
+#   type                   : # Person or Organization (defaults to Person)
+#   name                   : # If the user or organization name differs from the site's name
+#   links: # An array of links to social media profiles
 
 
 # Analytics
@@ -140,7 +140,7 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: "utf-8"
+encoding: "UTF-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
@@ -161,16 +161,21 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+    # span:
+    #   line_numbers: true
 
 # Sass/SCSS
 sass:
+  implementation: sass-embedded
   sass_dir: _sass
   style: compressed
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:categories/:title
 paginate: 10
 paginate_path: /page:num/
 timezone: Asia/Seoul # 확인: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -197,6 +202,7 @@ whitelist:
 defaults:
   # pages
   - scope:
+      path: ""
       type: pages
     values:
       layout: category
@@ -212,6 +218,7 @@ defaults:
 
   # posts
   - scope:
+      path: ""
       type: posts
     values:
       layout: single

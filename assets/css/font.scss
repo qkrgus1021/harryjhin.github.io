@@ -1,34 +1,20 @@
+/* ==========================================================================
+   FONTS
+   ========================================================================== */
+
 @font-face {
     font-family: "D2Coding";
-    src: url("/assets/fonts/D2Coding-Ver1.3.2-20180524.ttf") format('truetype');
+    src: url("/assets/fonts/D2Coding.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "NanumGothicCoding";
-    src: url("/assets/fonts/NanumGothicCoding.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-family: "KoPubWord Batang Meduim";
+    src: url('/assets/fonts/KoPubWorld\ Batang\ Medium.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Jetbrains Mono NF";
-    src: url("/assets/fonts/JetBrainsMonoRegularNerdFontCompleteMono.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "KoPubWorld Batang";
-    src: url("/assets/fonts/KoPubWorldBatangMedium.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "KoPubWorld Dotum";
-    src: url("/assets/fonts/KoPubWorldDotumMedium.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-family: "KoPubWord Dotum Meduim";
+    src: url('/assets/fonts/KoPubWorld\ Dotum\ Medium.ttf') format('truetype');
 }
